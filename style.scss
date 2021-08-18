@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@import "footer";
+@import "nosotros";
+@import "accesorios";
+@import "contacto";
+@import "productosCapilares";
+
+/*INICIO*/
+
+.nuqi-style {
+  font-size: 40px;
+  font-family: "Hahmlet", serif;
+  margin-left: 2%;
+  font-style: italic;
+}
+
+.navbar-margin {
+  margin-right: 2%;
+}
+
+.card-title {
+  font-size: 17px;
+}
+
+.card__card--color-text {
+  color: #1b221f;
+}
+
+.cards {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.boton__card--backgroundcolor-text {
+  background-color: #f18ebe;
+  color: rgb(0, 0, 0);
+}
+
+@media (max-width: 1300px) {
+  .texto {
+    color: rgb(182, 182, 182);
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .texto {
+    color: rgb(53, 95, 56);
+    font-size: 90%;
+  }
+  .container-footer {
+    margin-top: 30%;
+  }
+}
+
+@media (max-width: 572px) {
+  .cards {
+    margin-top: 10%;
+  }
+  .card__card--color-text {
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+  .titulo {
+    text-align: center;
+  }
+  .texto {
+    font-size: 20%;
+  }
+  .navbar__background--color {
+    background-color: rgb(75, 112, 81);
+  }
+  body {
+    height: 1000px;
+  }
+  .cards {
+    margin-top: 10%;
+  }
+  .card__card--color-text {
+    margin-top: 10%;
+  }
+}

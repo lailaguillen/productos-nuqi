@@ -1,0 +1,49 @@
+/*contacto*/
+.contactos__formulario--margin {
+  margin: 5% 30% 10% 30%;
+}
+
+.contactos__contactos--styleText {
+  font-size: 150%;
+  color: #000000;
+  margin-left: 8%;
+  margin-top: 2%;
+}
+
+.contactos__titleLabel--styleText {
+  font-weight: 600;
+  font-size: 120%;
+}
+
+.contactos__boton--style {
+  background-color: #f18ebe;
+  color: #000000;
+  border: unset;
+  height: 35px;
+  padding: 1%;
+}
+
+.contacto__btnLimpiar-style {
+  background-color: #000000;
+  color: white;
+  padding: 1%;
+}
+
+@media (max-width: 500px) {
+  .contactos__formulario--margin {
+    margin: 5% 30% 10% 10%;
+  }
+}
+@media (max-width: 758px) {
+  .contactos__formulario--margin {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
+
+@media (max-width: 400px) {
+  .contactos__formulario--margin {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
